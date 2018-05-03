@@ -1,0 +1,36 @@
+html {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+body, .container {
+  display: flex;
+  min-height: 100vh;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  transition: background-color 0.5s ease;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: 300;
+  color: white;
+}
+
+input {
+  padding: 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  outline: none;
+  font-family: inherit;
+  text-transform: uppercase;
+}

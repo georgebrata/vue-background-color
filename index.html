@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vuejs - 2-way data binding with a twist</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:300,400'>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <div :style="{background: color}" class="container" id="app">
+        <h1>
+            Enter a color
+        </h1>
+        <input :style="{color: color}" type="text" v-model="color" />
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js'></script>
+
+
+
+    <script src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
